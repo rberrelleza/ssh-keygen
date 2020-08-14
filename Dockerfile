@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:3
 ENV KEYS_PATH "/data"
 ENV USER "1000"
 WORKDIR /usr/src/app
